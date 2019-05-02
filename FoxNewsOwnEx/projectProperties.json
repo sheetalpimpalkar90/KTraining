@@ -1,0 +1,207 @@
+{
+    "APPLICATION_THEME": "default",
+    "appaddrkey": "",
+    "appidkey": "FoxNewsOwnEx",
+    "appnamekey": "FoxNewsOwnEx",
+    "apppackagekey": "",
+    "appversionkey": "1.0.0",
+    "build": "debug",
+    "category": "app",
+    "createdVizVersion": "8.3.0",
+    "createdgaversion": "8.3.0",
+    "currentgaversion": "8.3.0",
+    "enableCustomData": false,
+    "enableProgressiveWeb": false,
+    "enableResponsive": true,
+    "enableasyncdesktopweb": true,
+    "enableasyncspa": true,
+    "isDeveloperMode": "true",
+    "isDpScaleFactor": true,
+    "isMVC": true,
+    "isNewAppWithRespectToAndroidPackageName": "",
+    "konyVizVersion": "8.3.0",
+    "mastersProperties": {
+        "mastersVersion": "2.0.0"
+    },
+    "mwaddrkey": "",
+    "mwhttpsportkey": "",
+    "mwportkey": "",
+    "project.type": "js",
+    "project_version": "sprint32",
+    "referenceWidth": "375",
+    "startupformkey": "i929198c074e4713814a99cd75142ee0",
+    "vendornamekey": "KonyLabs",
+    "winmobileguidkey": "",
+    "defaulttheme": "defaultTheme",
+    "cloud_account_guid": "802099a5-4840-4458-820e-0793ddc5af8e",
+    "nativeContainerProperties": {
+        "isEnableJSContainerAndroid": false,
+        "isModified": true,
+        "isEnableJSContaineriOS": false,
+        "isEnableJSContainer": false
+    },
+    "appmenu": {
+        "tablet": {
+            "data": [
+                {
+                    "id": "appmenuitemid1",
+                    "title": "Item 1",
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "kuid": "e95a38724e764a519653ccf307db7614",
+                    "windows8": {
+                        "position": "BOTTOM_LEFT",
+                        "appBarButtonStyle": "No Style"
+                    }
+                },
+                {
+                    "id": "appmenuitemid2",
+                    "title": "Item 2",
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "kuid": "hb254fc463ab4200bdbd596eac1761b8",
+                    "windows8": {
+                        "position": "BOTTOM_LEFT",
+                        "appBarButtonStyle": "No Style"
+                    }
+                },
+                {
+                    "id": "appmenuitemid3",
+                    "title": "Item 3",
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "kuid": "h1aef893ba0541ad8e507de5bcd53ddb",
+                    "windows8": {
+                        "position": "BOTTOM_LEFT",
+                        "appBarButtonStyle": "No Style"
+                    }
+                },
+                {
+                    "id": "appmenuitemid4",
+                    "title": "Item 4",
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "kuid": "eff809f7bb084111bb8af3e1394fe6b4",
+                    "windows8": {
+                        "position": "BOTTOM_LEFT",
+                        "appBarButtonStyle": "No Style"
+                    }
+                }
+            ]
+        },
+        "desktop": {
+            "data": [
+                {
+                    "id": "appmenuitemid1",
+                    "title": "Item 1",
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "kuid": "b6d6454736e644b086930fb9437eff63"
+                },
+                {
+                    "id": "appmenuitemid2",
+                    "title": "Item 2",
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "kuid": "e5da7cb6c28f4321af692f6cb03a3570"
+                },
+                {
+                    "id": "appmenuitemid3",
+                    "title": "Item 3",
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "kuid": "e0116c2f06944e228f8b7d32badfd8f5"
+                },
+                {
+                    "id": "appmenuitemid4",
+                    "title": "Item 4",
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "kuid": "a8ab53581a324b2ca28292bf4731f291"
+                }
+            ]
+        },
+        "focusskin": null,
+        "osVersion": "iOS7",
+        "wType": "Appmenu",
+        "focusSkin": null,
+        "mobile": {
+            "data": [
+                {
+                    "id": "appmenuitemid1",
+                    "title": "Item 1",
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "kuid": "c59c0583a7d241feb2a9dae194ed4e36",
+                    "android": {
+                        "showAsFlag": 0
+                    }
+                },
+                {
+                    "id": "appmenuitemid2",
+                    "title": "Item 2",
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "kuid": "fc9bc83c609540d991ff48a94be65829",
+                    "android": {
+                        "showAsFlag": 0
+                    }
+                },
+                {
+                    "id": "appmenuitemid3",
+                    "title": "Item 3",
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "kuid": "cdf46b1b5f354743ac87e2e30ff12466",
+                    "android": {
+                        "showAsFlag": 0
+                    }
+                },
+                {
+                    "id": "appmenuitemid4",
+                    "title": "Item 4",
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "kuid": "d56c767822bd4da189c87a7d84be0f31",
+                    "android": {
+                        "showAsFlag": 0
+                    }
+                }
+            ]
+        },
+        "skin": null,
+        "osPlatform": ""
+    },
+    "kfAppInfo": {
+        "802099a5-4840-4458-820e-0793ddc5af8e": {
+            "id": "f8a2646e-df5e-4fcd-aaab-32ebe30e70d7",
+            "baseId": "f8a2646e-df5e-4fcd-aaab-32ebe30e70d7",
+            "version": "1.0",
+            "appName": "FoxNewsBySheetal"
+        }
+    }
+}

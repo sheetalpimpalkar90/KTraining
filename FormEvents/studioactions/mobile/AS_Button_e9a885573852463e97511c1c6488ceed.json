@@ -1,0 +1,24 @@
+{
+    "AS_Button_e9a885573852463e97511c1c6488ceed": {
+        "id": "AS_Button_e9a885573852463e97511c1c6488ceed",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmB",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a5ceebb87e48416e9743d315256a3338"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i21042450b2c4837aade41429de2a206",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.destroyForm(\"frmA\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

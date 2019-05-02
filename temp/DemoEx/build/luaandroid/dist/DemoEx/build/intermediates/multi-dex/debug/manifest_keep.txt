@@ -1,0 +1,3 @@
+# Referenced at /Users/student/Documents/KonyDev/WorkSpace/83/temp/DemoEx/build/luaandroid/dist/DemoEx/build/intermediates/manifests/full/debug/AndroidManifest.xml:23
+-keep class com.konylabs.android.KonyApplication { <init>(...); }
+

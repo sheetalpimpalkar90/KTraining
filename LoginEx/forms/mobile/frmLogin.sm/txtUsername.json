@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "User Name",
+    "_skin_": "sa356f16a5e14b01906f88bd5c709fb9",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "23dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "320dp"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s04ce7af589f4d75b4d1a0308db70b64",
+    "id": "txtUsername",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "d8e5c2d316d7432ea6799ceda92a3efc",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxParent",
+    "pf": "frmLogin",
+    "placeholderskin": "sb30f81e87894d9897cef0b16b7742a7",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

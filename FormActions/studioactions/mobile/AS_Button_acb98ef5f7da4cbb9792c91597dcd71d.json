@@ -1,0 +1,37 @@
+{
+    "AS_Button_acb98ef5f7da4cbb9792c91597dcd71d": {
+        "id": "AS_Button_acb98ef5f7da4cbb9792c91597dcd71d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSecond",
+            "type": "forms",
+            "platform": null,
+            "KUID": "eb857327dc954248b86be8b2218ef409"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_MAP_LOCATION____g40dbf52d8e1401d9afbb34e66e08abb",
+            "type": "SET_MAP_LOCATION",
+            "itemType": "FORM",
+            "itemId": "frmSecond",
+            "widgetId": "Map0c13f6c52913246",
+            "propertyName": "locationData",
+            "propertyObject": {
+                "lat": 17.3616,
+                "lon": 78.4747,
+                "name": "Charminar",
+                "desc": "Historical Place"
+            },
+            "itemKUID": "eb857327dc954248b86be8b2218ef409",
+            "widgetKUID": "i743c70fcf824b7c84829823684d8590",
+            "wType": "Map",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

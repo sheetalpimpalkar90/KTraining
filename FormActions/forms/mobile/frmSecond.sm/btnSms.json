@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s29b8efa642a49fbb306ceb9558a089c",
+    "_text_": "SMS",
+    "_top_": {
+        "type": "string",
+        "value": "6dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "110dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s6d0bc583ffb47159fe1d2529b37c974",
+    "id": "btnSms",
+    "ide_onClick": "AS_Button_defe82236e51413688f699efeb02df2e",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "if5c48dcd0d44b89b5c00875a68e5644",
+    "name": "kony.ui.Button",
+    "parent": "flexBtns",
+    "pf": "frmSecond",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

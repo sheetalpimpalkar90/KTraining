@@ -1,0 +1,28 @@
+{
+    "AS_Button_bba0120e1c8c40b3a57f42eb3e8aec2c": {
+        "id": "AS_Button_bba0120e1c8c40b3a57f42eb3e8aec2c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAnimate",
+            "type": "forms",
+            "platform": null,
+            "KUID": "cd3bfc3c7f904336a5cfe043274dfece"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ib696dd3a41d4fa3b7a9875342596b90",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "animateTransFormButton",
+            "display": "animateTransFormButton",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

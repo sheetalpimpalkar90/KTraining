@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "37dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbfbfb6cf54d49e281f5a922530a93d7",
+    "_text_": "Transform",
+    "_top_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s0bb7137572a4c83b8980ff4208a67e9",
+    "id": "btnTransformTarget",
+    "ide_onClick": "AS_Button_bba0120e1c8c40b3a57f42eb3e8aec2c",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c6dbd55abfab4b68a1d39c2f86883f1d",
+    "name": "kony.ui.Button",
+    "parent": "frmAnimate",
+    "pf": "frmAnimate",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

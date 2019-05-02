@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizSwitch",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "32dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "233dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sfc7ccc9b9804ff39d6fcd14a4fe14e2",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "73dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "id": "Switch0a196b3180b924f",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "b4522dba53914eec8e3bce3e68631440",
+    "leftsidetext": "ON",
+    "name": "kony.ui.Switch",
+    "onslide": null,
+    "osPlatform": "iphone",
+    "osVersion": "iOS7",
+    "parent": "flxRemember",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "rightsidetext": "OFF",
+    "selectedindex": 0,
+    "wType": "Switch",
+    "widgetalignment": 5,
+    "zindex": 1
+}

@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "33dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "104dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se59c52b46584ac497e8e5048b496699",
+    "_src_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "72dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "73dp"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "tempRowProducts",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "imgRating",
+    "imagescalemode": 1,
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e026fdca9a97419eab61570794867f90",
+    "name": "kony.ui.Image2",
+    "parent": "flexRowItem",
+    "pf": "tempRowProducts",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

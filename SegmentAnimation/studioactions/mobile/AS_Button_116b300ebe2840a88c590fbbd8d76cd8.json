@@ -1,0 +1,17 @@
+{
+    "AS_Button_116b300ebe2840a88c590fbbd8d76cd8": {
+        "id": "AS_Button_116b300ebe2840a88c590fbbd8d76cd8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_eb8aa0a778cd460bb20eae0912743606",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setAnimation(\"scale\")",
+            "callbackType": null
+        }]
+    }
+}

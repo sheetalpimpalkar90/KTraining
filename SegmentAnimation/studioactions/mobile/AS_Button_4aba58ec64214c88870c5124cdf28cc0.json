@@ -1,0 +1,17 @@
+{
+    "AS_Button_4aba58ec64214c88870c5124cdf28cc0": {
+        "id": "AS_Button_4aba58ec64214c88870c5124cdf28cc0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d25b9890f89a4d9da529d82abb451709",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setAnimation(\"rotate\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,328 @@
+{
+    "CopyCopyslForm5": {
+        "wType": "Form",
+        "bg_type": "one",
+        "border_color": "ffffff00",
+        "background_color": "7e7e7e00"
+    },
+    "CopydefBtnNormal0aedf6a8c16224e": {
+        "wType": "Button",
+        "bg_type": "one",
+        "border_color": "ffffff00",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_color": "ffffff00",
+        "font_name": "System",
+        "font_size": 120,
+        "font_style": "normal",
+        "font_weight": "normal",
+        "background_color": "4b88f100"
+    },
+    "CopydefBtnNormal0g1cd52fa8ee744": {
+        "wType": "Button",
+        "bg_type": "one",
+        "border_color": "ffffff00",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_color": "ffffff00",
+        "font_name": "System",
+        "font_size": 120,
+        "font_style": "normal",
+        "font_weight": "normal",
+        "background_color": "4b88f100"
+    },
+    "CopydefLabel0b3eb6f20281949": {
+        "wType": "Label",
+        "bg_type": "one",
+        "border_color": "42424200",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_color": "33333300",
+        "font_name": "System",
+        "font_size": 150,
+        "font_style": "normal",
+        "font_weight": "normal",
+        "background_color": "00000064"
+    },
+    "CopydefLabel0e6272ffe3ae54c": {
+        "wType": "Label",
+        "bg_type": "one",
+        "border_color": "42424200",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_color": "33333300",
+        "font_name": "System",
+        "font_size": 150,
+        "font_style": "normal",
+        "font_weight": "normal",
+        "background_color": "00000064"
+    },
+    "CopydefLabel0g3764a91331b4e": {
+        "wType": "Label",
+        "bg_type": "one",
+        "border_color": "42424200",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_color": "33333300",
+        "font_name": "System",
+        "font_size": 150,
+        "font_style": "normal",
+        "font_weight": "normal",
+        "background_color": "00000064"
+    },
+    "defBtnFocus": {
+        "wType": "Button",
+        "bg_type": "one",
+        "border_color": "ffffff00",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_color": "ffffff00",
+        "font_name": "System",
+        "font_size": 150,
+        "font_style": "normal",
+        "font_weight": "normal",
+        "background_color": "6fa0f400"
+    },
+    "defBtnNormal": {
+        "wType": "Button",
+        "bg_type": "one",
+        "border_color": "ffffff00",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_color": "ffffff00",
+        "font_name": "System",
+        "font_size": 150,
+        "font_style": "normal",
+        "font_weight": "normal",
+        "background_color": "4b88f100"
+    },
+    "defLabel": {
+        "wType": "Label",
+        "bg_type": "one",
+        "border_color": "42424200",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_color": "33333300",
+        "font_name": "System",
+        "font_size": 200,
+        "font_style": "normal",
+        "font_weight": "normal",
+        "background_color": "00000064"
+    },
+    "seg2Focus": {
+        "wType": "Segment",
+        "bg_type": "one",
+        "border_color": "00000000",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_name": "System",
+        "background_color": "00000064"
+    },
+    "seg2Normal": {
+        "wType": "Segment",
+        "bg_type": "one",
+        "border_color": "00000000",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_name": "System",
+        "background_color": "ffffff00"
+    },
+    "sknLblDescription": {
+        "wType": "Label",
+        "bg_type": "one",
+        "border_color": "42424200",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_color": "57575700",
+        "font_name": "System",
+        "font_size": 92,
+        "font_style": "normal",
+        "font_weight": "normal",
+        "background_color": "00000064"
+    },
+    "sknLblRowHeading": {
+        "wType": "Label",
+        "bg_type": "one",
+        "border_color": "42424200",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_color": "00000000",
+        "font_name": "System",
+        "font_size": 107,
+        "font_style": "normal",
+        "font_weight": "normal",
+        "background_color": "00000064",
+        "shadow": {
+            "br": 0,
+            "color": "00000000",
+            "inner": false,
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        },
+        "text_shadow": {
+            "br": 0,
+            "color": "00000000",
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "sknLblStrip": {
+        "wType": "Label",
+        "bg_type": "one",
+        "border_color": "42424200",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_color": "4b88f100",
+        "font_name": "Helvetica",
+        "font_size": 70,
+        "font_style": "normal",
+        "font_weight": "normal",
+        "background_color": "4b88f100"
+    },
+    "sknLblTimeStamp": {
+        "wType": "Label",
+        "bg_type": "one",
+        "border_color": "42424200",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_color": "8e8e8e00",
+        "font_name": "System",
+        "font_size": 92,
+        "font_style": "normal",
+        "font_weight": "normal",
+        "background_color": "00000064"
+    },
+    "sknSampleRowTemplate": {
+        "wType": "FlexContainer",
+        "bg_type": "one",
+        "border_color": "00000000",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "background_color": "ffffff00"
+    },
+    "sknSampleSectionHeaderTemplate": {
+        "wType": "FlexContainer",
+        "bg_type": "one",
+        "border_color": "00000000",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "background_color": "ffffff00"
+    },
+    "sknSectionHeaderLabelSkin": {
+        "wType": "Label",
+        "bg_type": "one",
+        "border_color": "42424200",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_color": "00000000",
+        "font_name": "System-Bold",
+        "font_size": 125,
+        "font_style": "normal",
+        "font_weight": "normal",
+        "background_color": "94019464",
+        "shadow": {
+            "br": 0,
+            "color": "00000000",
+            "inner": false,
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        },
+        "text_shadow": {
+            "br": 0,
+            "color": "00000000",
+            "nm": 0,
+            "x": 0,
+            "y": 0
+        }
+    },
+    "slDynamicNotificationForm": {
+        "wType": "WatchDynamicNotificationForm",
+        "bg_type": "one",
+        "border_color": "ffffff00",
+        "background_color": "00000000"
+    },
+    "slFbox": {
+        "wType": "FlexContainer",
+        "bg_type": "one",
+        "border_color": "00000000",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_name": "System",
+        "background_color": "00000064"
+    },
+    "slForm": {
+        "wType": "Form",
+        "bg_type": "one",
+        "border_color": "ffffff00",
+        "background_color": "ffffff00"
+    },
+    "slImage": {
+        "wType": "Image",
+        "bg_type": "one",
+        "border_color": "00000000",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_color": "00000000",
+        "font_name": "System",
+        "font_size": 156,
+        "font_style": "normal",
+        "font_weight": "normal",
+        "background_color": "00000064"
+    },
+    "slPopup": {
+        "wType": "Popup",
+        "bg_type": "one",
+        "background_color": "7e7e7e00"
+    },
+    "slStaticNotificationForm": {
+        "wType": "WatchStaticNotificationForm",
+        "bg_type": "one",
+        "background_color": "00000000"
+    },
+    "slTitleBar": {
+        "wType": "TitleBar",
+        "bg_type": "one",
+        "font_color": "33333300",
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "font_weight": "normal",
+        "background_color": "ffffff00"
+    },
+    "slWatchForm": {
+        "wType": "Form",
+        "bg_type": "one",
+        "background_color": "00000000"
+    },
+    "sliPhoneSegmentHeader": {
+        "wType": "Segment",
+        "bg_type": "one",
+        "border_color": "00000000",
+        "border_style": "plain",
+        "border_width": 0,
+        "border_type": 0,
+        "font_name": "System",
+        "background_color": "a7a7a700"
+    }
+}

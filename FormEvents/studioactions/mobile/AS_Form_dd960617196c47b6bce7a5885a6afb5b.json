@@ -1,0 +1,24 @@
+{
+    "AS_Form_dd960617196c47b6bce7a5885a6afb5b": {
+        "id": "AS_Form_dd960617196c47b6bce7a5885a6afb5b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b7bb2608c5a84affb3aed5f755646061"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ff1c0befb30a4893af0f81f5cbd95c18",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"###### In form A: onDestroy\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

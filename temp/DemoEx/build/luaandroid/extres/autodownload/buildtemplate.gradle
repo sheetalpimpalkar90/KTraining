@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+allprojects {
+    repositories {
+        maven {
+            url "https://maven.google.com"
+        }
+        jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+buildscript {
+    repositories {
+        jcenter()
+		google()
+    }
+    dependencies {
+        $ANDROID_GRADLE_TOOLS_VERSION
+    }
+}
+android {
+    $COMPILE_SDK_VERSION
+    buildToolsVersion '$ANDROID_BUILD_TOOLS_VERSION'
+    defaultConfig {
+        applicationId "com.kony.konyapplication"
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    $COMPILE_ANDROID_INTIAL_DEPENDENCIES
+}

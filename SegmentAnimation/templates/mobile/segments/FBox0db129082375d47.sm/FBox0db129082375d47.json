@@ -1,0 +1,54 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxCarsRow"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "FBox0db129082375d47Controller"
+        }
+    },
+    "enablescrolling": true,
+    "id": "FBox0db129082375d47",
+    "info": null,
+    "isGeneratedTemplate": true,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "1ef2442fc5904c2d8c0d532a7d992849",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "pf": "FBox0db129082375d47",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

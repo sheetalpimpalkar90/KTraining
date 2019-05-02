@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Password",
+    "_skin_": "sa356f16a5e14b01906f88bd5c709fb9",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "23dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "304dp"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s04ce7af589f4d75b4d1a0308db70b64",
+    "id": "CopytxtUsername0dd7a8e9352fe4b",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "ha0494a3da5f401cbf314e8a5652d335",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxParent",
+    "pf": "frmLogin",
+    "placeholderskin": "sb30f81e87894d9897cef0b16b7742a7",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": true,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

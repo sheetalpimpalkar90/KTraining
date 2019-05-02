@@ -1,0 +1,28 @@
+{
+    "AS_Form_a8bbad5534ac4fafa66b89e29423cbc4": {
+        "id": "AS_Form_a8bbad5534ac4fafa66b89e29423cbc4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmsegmentItems",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c685d887d2d841dab7b37e86a4a5242d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h6d2ae68b73f4a388b2c9c51ade7c63e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setSegmentsAndRows",
+            "display": "setSegmentsAndRows",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

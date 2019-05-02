@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "38dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1103076156546598a808ab46129de02",
+    "_text_": "Common Alert",
+    "_top_": {
+        "type": "string",
+        "value": "176dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s87f68714ea34352b139c560f90bfb46",
+    "id": "btnCommonAlert",
+    "ide_onClick": "AS_Button_h0540aff88ac49f2962f92bc1baff413",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c06dca4f338241f296cd171287fd66d7",
+    "name": "kony.ui.Button",
+    "parent": "frmFirst",
+    "pf": "frmFirst",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,66 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s114a471200f4b8da2602b794f52ba28",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "lblSection"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "flexSectionController"
+        }
+    },
+    "enablescrolling": true,
+    "id": "flexSection",
+    "info": null,
+    "isTemplate": true,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b004e05788494ca881416d6e1467ab7d",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "tempSection",
+    "pf": "tempSection",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

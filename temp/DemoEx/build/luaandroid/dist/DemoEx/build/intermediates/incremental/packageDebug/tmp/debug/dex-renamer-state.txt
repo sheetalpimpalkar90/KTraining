@@ -1,0 +1,7 @@
+#Wed Apr 24 12:51:02 IST 2019
+base.0=/Users/student/Documents/KonyDev/WorkSpace/83/temp/DemoEx/build/luaandroid/dist/DemoEx/build/intermediates/transforms/dexMerger/debug/0
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/student/Documents/KonyDev/WorkSpace/83/temp/DemoEx/build/luaandroid/dist/DemoEx/build/intermediates/transforms/dexMerger/debug/0

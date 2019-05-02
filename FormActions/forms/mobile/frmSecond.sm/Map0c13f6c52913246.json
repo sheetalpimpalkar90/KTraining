@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizMap",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_mode_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "145dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "calloutwidth": 80,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "defaultpinimage": "pinb.png",
+    "id": "Map0c13f6c52913246",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i743c70fcf824b7c84829823684d8590",
+    "locationdata": [],
+    "mapsource": "non-native",
+    "mapsrc": "non-native",
+    "name": "kony.ui.Map",
+    "parent": "frmSecond",
+    "pf": "frmSecond",
+    "provider": "google",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "wType": "Map",
+    "zindex": 1,
+    "zoomlevel": 4
+}

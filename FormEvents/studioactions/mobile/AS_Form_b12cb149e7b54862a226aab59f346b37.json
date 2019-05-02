@@ -1,0 +1,24 @@
+{
+    "AS_Form_b12cb149e7b54862a226aab59f346b37": {
+        "id": "AS_Form_b12cb149e7b54862a226aab59f346b37",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b7bb2608c5a84affb3aed5f755646061"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h85bbc5a12c249d2befbffeeb0c47270",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"###### In form A: preShow\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

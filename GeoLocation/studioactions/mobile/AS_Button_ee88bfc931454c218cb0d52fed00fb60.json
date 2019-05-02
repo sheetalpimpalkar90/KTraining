@@ -1,0 +1,28 @@
+{
+    "AS_Button_ee88bfc931454c218cb0d52fed00fb60": {
+        "id": "AS_Button_ee88bfc931454c218cb0d52fed00fb60",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGetLocation",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c74bfb206f2e401fbafd1d3b64e7e331"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c3091605c3664bdab95e876c025037ad",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCurrentLocation",
+            "display": "getCurrentLocation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

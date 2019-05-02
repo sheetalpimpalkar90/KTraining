@@ -1,0 +1,29 @@
+{
+    "AS_Button_f44633eef1e14993a10cc401b69e1f4f": {
+        "id": "AS_Button_f44633eef1e14993a10cc401b69e1f4f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSecond",
+            "type": "forms",
+            "platform": null,
+            "KUID": "eb857327dc954248b86be8b2218ef409"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SEND_EMAIL__bc7b850fcb6448c083d150d4b2947b44",
+            "type": "SEND_EMAIL",
+            "torecipients": ["kalyanideshmukh77.kd@gmail.com"],
+            "ccrecipients": ["manishpathakbabu@gmail.com"],
+            "bccrecipients": null,
+            "messagebody": "Kony Test Mail!!!!",
+            "subject": "Kony test mail",
+            "ismessagebodyhtml": false,
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

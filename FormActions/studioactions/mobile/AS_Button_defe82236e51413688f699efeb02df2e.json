@@ -1,0 +1,25 @@
+{
+    "AS_Button_defe82236e51413688f699efeb02df2e": {
+        "id": "AS_Button_defe82236e51413688f699efeb02df2e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSecond",
+            "type": "forms",
+            "platform": null,
+            "KUID": "eb857327dc954248b86be8b2218ef409"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SEND_SMS__c67e156003ed45b5869c5c39574b1104",
+            "type": "SEND_SMS",
+            "phoneNumber": "+918788397980",
+            "message": "Hi Kalyani!!!!",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

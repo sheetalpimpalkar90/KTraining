@@ -1,0 +1,2 @@
+  502 28264   584   0  6:13PM ??         0:00.01 /bin/sh -c if [ ! -f /Users/student/isSimRunning.txt ]; then 2> /dev/null; else rm /Users/student/isSimRunning.txt; fi;ps -ef | grep 'CurrentDeviceUDID' > /Users/student/isSimRunning.txt
+  502 28267 28264   0  6:13PM ??         0:00.00 grep CurrentDeviceUDID

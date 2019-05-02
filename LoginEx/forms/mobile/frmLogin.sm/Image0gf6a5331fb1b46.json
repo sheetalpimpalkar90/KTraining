@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "57dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7b9845b09bc49a586786e280bb831ff",
+    "_src_": "finger_print_icon.png",
+    "_top_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "33dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50.54%"
+    },
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmLogin",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "Image0gf6a5331fb1b46",
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i2d7fcc7bb764881a5f9e450f37d4d25",
+    "name": "kony.ui.Image2",
+    "parent": "FlexContainer0de9e42f3efb04c",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

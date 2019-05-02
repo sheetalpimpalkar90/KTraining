@@ -1,0 +1,34 @@
+{
+    "AS_Button_be79bb5e8b3145809ccad492145e858f": {
+        "id": "AS_Button_be79bb5e8b3145809ccad492145e858f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmActions",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ha831b5646e74cc2ba963351e5f13897"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___g51a8f6bd71f493c857e68356610d686",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmActions",
+            "widgetId": "btnTest",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "ha831b5646e74cc2ba963351e5f13897",
+            "widgetKUID": "h8755069d895437dbdcef7ffaee99055",
+            "isSkinProperty": false,
+            "wType": "Button",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.btnTest"
+        }]
+    }
+}

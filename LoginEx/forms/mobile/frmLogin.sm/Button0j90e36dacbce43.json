@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "7dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "scfd3361938f4d2faa9eeeee520f3c88",
+    "_text_": "Sign In with Touch ID",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "143dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50.09%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s4a6a7446e4e4043b9a0e04cc34be892",
+    "id": "Button0j90e36dacbce43",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i5fc1f2cdc0143928605dc730bc78900",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0de9e42f3efb04c",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

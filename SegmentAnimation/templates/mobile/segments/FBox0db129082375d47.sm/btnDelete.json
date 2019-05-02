@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s28f60c6f2544ba4b55e2cf06b013696",
+    "_text_": "Button",
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "60%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5c100ea4da54750b78e0eba4ba56672",
+    "id": "btnDelete",
+    "ide_onClick": "AS_Button_hed78efc3c2b49319b9b5da5e1184453",
+    "info": null,
+    "isSegmentChild": true,
+    "isvisible": true,
+    "kuid": "c302bbbb87ca487db8a49bef47b4abe8",
+    "name": "kony.ui.Button",
+    "parent": "flxCarsRow",
+    "pf": "FBox0db129082375d47",
+    "wType": "Button",
+    "zindex": 1
+}

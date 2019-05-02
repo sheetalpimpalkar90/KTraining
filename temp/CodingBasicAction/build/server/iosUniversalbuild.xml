@@ -1,0 +1,117 @@
+<project name="Kony" basedir="." default="build">
+    <target name="build">
+        <echo message=" ${basedir} in build target"/>
+    </target>
+    
+    <target name="iosUniversalbuildKAR" description="Creating Universal KAR file" depends="KARs.check" if="${check.iphone.ipad.KAR.present}">
+        
+        <delete dir="universalkbf"/>
+        <mkdir dir="universalkbf"/>
+    
+        <copy todir="universalkbf" overwrite="true">
+           <fileset dir="ipadkbf" excludes="konyappipad.KAR" />
+        </copy>
+        
+        <copy todir="universalkbf" overwrite="true">
+            <fileset dir="iphonekbf" excludes="konyappiphone.KAR"/>
+        </copy>
+        <copy.ipad.specific.app_props/>
+        <rename.ipad.images/>
+        <remove.duplicate.assets/>
+        <zip destfile="universalkbf/konyappuniversal.KAR" update="true" basedir="universalkbf"/>
+        <available file="universalkbf/konyappuniversal.KAR" type="file" property="check.universalKAR"/>
+        <delete dir="${jetty.web}r/kbf"/>
+        <if>
+            <equals arg1="${check.universalKAR}"  arg2="true"/>
+            <then>
+                <copy todir="${jetty.web}r/kbf" overwrite="true">
+                    <fileset dir="universalkbf" includes="*.KAR,*.kbf"/>
+                </copy>
+            </then>
+        </if>
+    </target>
+    
+    <target name="KARs.check">
+		
+			<taskdef resource="net/sf/antcontrib/antcontrib.properties">
+		      <classpath>
+		        <pathelement location="${plugin.loc}/lib/ant-contrib-0.6.jar"/>
+		      </classpath>
+		    </taskdef>
+			
+
+		    <taskdef name="unset" classname="ise.antelope.tasks.Unset">
+				<classpath>
+				    <pathelement location="${plugin.loc}\lib\AntelopeTasks_3.4.0.jar"/>
+				  </classpath>
+			</taskdef>
+			
+			<taskdef resource="com/kony/ant/antkonyscript.properties">
+		      <classpath>
+		        <pathelement location="${plugin.loc}/lib/KonyAntScript.jar"/>
+		      </classpath>
+		    </taskdef>
+    	
+        <condition property="check.iphone.ipad.KAR.present">
+            <and>
+                <available file="iphonekbf/konyappiphone.KAR"/>
+                <available file="ipadkbf/konyappipad.KAR"/>
+            </and>
+        </condition>
+    </target>
+    
+    <macrodef name="remove.duplicate.assets">
+        <sequential>
+            <delete includeEmptyDirs="true">
+                <fileset dir="universalkbf/resources/ipad">
+                    <not>
+                        <filename regex=".(?i)(png|jpg|jpeg|gif)"/>
+                    </not>
+                    <present targetdir="universalkbf/resources/iphone"  present="both"/>
+                </fileset>
+            </delete>
+        </sequential>
+    </macrodef>
+    
+    <macrodef name="rename.ipad.images">
+        <sequential>
+            <move todir="universalkbf/resources/ipad">
+                <fileset dir="universalkbf/resources/ipad">
+                    <filename regex=".(?i)(png|jpg|jpeg|gif)"/>
+                </fileset>
+                <mapper type="regexp" from="(.*).(?i)(png|jpeg|jpg|gif)" to="\1~ipad.\2" />
+            </move>
+        </sequential>
+    </macrodef>
+    
+    <macrodef name="copy.ipad.specific.app_props">
+        <sequential>
+            <property file="ipadkbf/application.properties" prefix="ipadprop" />
+            <property name="appPropNamesAppIcon" value="platform.ipad.icons.1x_20,platform.ipad.icons.2x_20,platform.ipad.icons.1x_29,platform.ipad.icons.2x_29,platform.ipad.icons.1x_40,platform.ipad.icons.2x_40,platform.ipad.icons.1x_76,platform.ipad.icons.2x_76,platform.ipad.icons.2x_83.5"/>
+            
+            <for param="propname" list="${appPropNamesAppIcon}" delimiter=",">
+                <sequential>
+                    <echo file="universalkbf/application.properties" message="${line.separator}        @{propname}=${ipadprop.@{propname}}" append="true"/>
+                </sequential>
+            </for>
+            
+            
+            <property name="appPropNamesLandscape" value="app.launch.mode,app.supportedorientations,splash.image.landscape,splash.video.landscape,splash.video.interruptable.landscape,splash.animation.images.landscape,splash.animation.duration.landscape,platform.ipad.icons.1x_20,platform.ipad.icons.2x_20,platform.ipad.icons.1x_29,platform.ipad.icons.2x_29,platform.ipad.icons.1x_40,platform.ipad.icons.2x_40,platform.ipad.icons.1x_76,platform.ipad.icons.2x_76"/>
+            
+            <for param="propname" list="${appPropNamesLandscape}" delimiter=",">
+                <sequential>
+                    <echo file="universalkbf/application.properties" message="${line.separator}        @{propname}=${ipadprop.@{propname}}" append="true"/>
+                </sequential>
+            </for>
+
+            <property name="appPropNames" value="splash.image,splash.video,splash.video.interruptable,splash.animation.duration,splash.animation.images,logo.id"/>
+            <for param="propname" list="${appPropNames}" delimiter=",">
+                <sequential>
+                    <echo file="universalkbf/application.properties" message="${line.separator}        @{propname}~ipad=${ipadprop.@{propname}}" append="true"/>
+                </sequential>
+            </for>
+            
+            <replace file="universalkbf/application.properties" token="konyapp.o.type=1" value="konyapp.o.type=3"/>
+        </sequential>
+    </macrodef>
+</project>

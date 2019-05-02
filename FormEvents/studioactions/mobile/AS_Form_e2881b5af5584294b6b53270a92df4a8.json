@@ -1,0 +1,24 @@
+{
+    "AS_Form_e2881b5af5584294b6b53270a92df4a8": {
+        "id": "AS_Form_e2881b5af5584294b6b53270a92df4a8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmB",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a5ceebb87e48416e9743d315256a3338"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a4e142cad6cb4ff499970b6979befda7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"###### In form B: init\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Form_0ecf562dfb2541ea9029935b901f0bea": {
+        "id": "AS_Form_0ecf562dfb2541ea9029935b901f0bea",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19134457662"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__9758ba31b3644cf79d1bbd6215a6b7dc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.populateDataToSegment();\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

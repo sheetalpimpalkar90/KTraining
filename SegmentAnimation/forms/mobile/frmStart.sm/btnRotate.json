@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s156a1646acc498d89e0671380317901",
+    "_text_": "Rotate",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "32%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5c100ea4da54750b78e0eba4ba56672",
+    "id": "btnRotate",
+    "ide_onClick": "AS_Button_4aba58ec64214c88870c5124cdf28cc0",
+    "info": null,
+    "isvisible": true,
+    "kuid": "523851b8e80b4a9a95cde2f9fd9e7906",
+    "name": "kony.ui.Button",
+    "parent": "flxAnimationOptions",
+    "pf": "frmStart",
+    "wType": "Button"
+}
